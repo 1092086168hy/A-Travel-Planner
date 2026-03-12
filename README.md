@@ -18,7 +18,3 @@ View your app in AI Studio: https://ai.studio/apps/19d6f720-e875-49b5-82a3-4aab5
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
-
-## Purpose
-To overcome the problem that have difficulites deciding where to travel, we have this app
-<img width="1670" height="963" alt="image" src="https://github.com/user-attachments/assets/f2d324db-4eec-4ad6-b525-e39cd408b1d2" />
