@@ -1,0 +1,5 @@
+{
+  "name": "VoyageAI - 智能旅游规划助手",
+  "description": "基于 Gemini 的智能旅游规划助手，根据您的预算、时间和偏好，结合实时搜索和地图信息，为您量身定制完美的旅行计划。",
+  "requestFramePermissions": ["geolocation"]
+}

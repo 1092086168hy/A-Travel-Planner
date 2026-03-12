@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+/* Custom range slider styling */
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  background: white;
+  border: 2px solid #10b981;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+/* Markdown styling */
+.prose h1 { @apply text-3xl font-bold mb-6 mt-8; }
+.prose h2 { @apply text-2xl font-bold mb-4 mt-8 pb-2 border-b border-gray-100; }
+.prose h3 { @apply text-xl font-bold mb-3 mt-6; }
+.prose p { @apply text-gray-600 leading-relaxed mb-4; }
+.prose ul, .prose ol { @apply mb-6 pl-6 space-y-2; }
+.prose li { @apply text-gray-600; }
+.prose strong { @apply font-bold text-gray-900; }
+.prose blockquote { @apply border-l-4 border-emerald-500 pl-4 italic text-gray-500 my-6; }
